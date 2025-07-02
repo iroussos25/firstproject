@@ -221,6 +221,8 @@ ul {
     width: 100%;
 }
 
-#discord .section__description{
-    flex-direction: column-reverse;
+#discord .section__description {
+    flex-direction: column-reverse
+
+}
 }
