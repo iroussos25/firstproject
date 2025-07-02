@@ -178,5 +178,49 @@ margin-bottom: 16px;
     padding: 0 16px;
 }
 
-.footer__link {
+/*SMALL PHONES, TABLETS AND LARGE SMARTPHONES*/
+
+@media (max-width: 728px) {
+.row {
+    flex-direction: column;
+}
+.home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__description--button {
+    align-items: center;
+    margin-top: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.subheader {
+    text-align: center;
+    font-size: 28px;
+}
+
+ul {
+    display: none;
+}
+
+.section__description{
+    flex-direction: column;
+}
+
+.section__description--wrapper {
+    width: 100%;
+}
+.about__img--wrapper {
+    width: 100%;
+}
+
+#discord .section__description{
+    flex-direction: column-reverse;
 }
